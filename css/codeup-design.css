@@ -28,56 +28,33 @@ body{
     font-weight: bold;
 }
 
-.circle-design{
+.circles{
     width:100px;
     height: 100px;
-    background: #E6563B;
     border-radius: 100%;
     border: 5px solid white;
     color:white;
     font-weight: bold;
     padding-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    font-family: "anton-regular";
+    font-size: 17px;
+}
+
+.circle-design{
+    background: #E6563B;
 }
 
 .circle-develop{
-    width:100px;
-    height: 100px;
-    background: #EB9D3A;
-    border-radius: 100%;
-    border: 5px solid white;
-    border: 5px solid white;
-    color:white;
-    font-weight: bold;
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
+    background: #EB9D3A;   
 }
 .circle-support{
-    width:100px;
-    height: 100px;
-    background: #7CB06C;
-    border-radius: 100%;
-    border: 5px solid white;
-    border: 5px solid white;
-    color:white;
-    font-weight: bold;
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
+    background: #7CB06C;  
 }
-.circle-host{
-    width:100px;
-    height: 100px;
-    background: #00ABA9;
-    border-radius: 100%;
-    border: 5px solid white;
-    border: 5px solid white;
-    color:white;
-    font-weight: bold;
-    padding-top: 30px;
-}
+.circle-host{   
+    background: #00ABA9;   
+} 
 
 @media screen and (min-width: 200px) and (max-width:768px){
     .apple-ipad {
