@@ -54,65 +54,54 @@ body{
 }
 .circle-host{   
     background: #00ABA9;   
-} 
+}
 
-@media screen and (min-width: 200px) and (max-width:768px){
-    .apple-ipad {
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .project-img {
         display: flex;
         flex-direction: column;
         justify-content: center;
         width: 515px;
         height: auto;
+        border: 5px solid #e6e6e6;
     }
-    .macbook {
+}
+@media screen and (min-width: 992px) and (max-width:1200px){
+    .project-img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 515px;
+        width: 265px;
         height: auto;
+        border: 5px solid #e6e6e6;
     }
-    .man {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 515px;
-        height: auto;
-    }
-    .security{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 515px;
-        height: auto;
-    }
+}
+
+.small-img {
+    font-family: anton-regular;
+    font-size: 25px;
+}
+
+.color-icon{
+    font-family: "anton-regular";
+    padding: 0px 8px 0px 8px;
+    font-size: 15px;
+    border-radius: 100%;
+    margin-left: 5px;
 
 }
+
 
 .red-d {
-    font-family: "anton-regular";
     background-color: #E6563B;
-    padding: 3px 14px 3px 14px;
-    font-size: 20px;
-    border-radius: 100%;
+    margin-left: 40px;
 }
 .orange-d {
-    font-family: "anton-regular";
     background-color: #EB9D3A;
-    padding: 3px 14px 3px 14px;
-    font-size: 20px;
-    border-radius: 100%;
 }
 .green-s {
-    font-family: "anton-regular";
     background-color: #7CB06C;
-    padding: 3px 14px 3px 14px;
-    font-size: 20px;
-    border-radius: 100%;
 }
 .blue-h {
-    font-family: "anton-regular";
     background-color: #00ABA9;
-    padding: 3px 14px 3px 14px;
-    font-size: 20px;
-    border-radius: 100%;
 }
