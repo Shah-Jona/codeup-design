@@ -9,3 +9,72 @@ body{
     border-radius: 100%;
     border: 3px solid rgb(3, 160, 184);
 }
+
+/* @media screen and (min-width:200px) and (max-width: 768px){
+    .logo-title{
+        visibility:hidden;
+    }
+} */
+
+.header-big{
+    font-size: 55px;
+    font:"sans-serif";
+    font-weight: 100;
+}
+
+.address-state{
+    font-size: 37px;
+    font: "anton-regular";
+    font-weight: bold;
+}
+
+.circle-design{
+    width:100px;
+    height: 100px;
+    background: #E6563B;
+    border-radius: 100%;
+    border: 5px solid white;
+    color:white;
+    font-weight: bold;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle-develop{
+    width:100px;
+    height: 100px;
+    background: #EB9D3A;
+    border-radius: 100%;
+    border: 5px solid white;
+    border: 5px solid white;
+    color:white;
+    font-weight: bold;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.circle-support{
+    width:100px;
+    height: 100px;
+    background: #7CB06C;
+    border-radius: 100%;
+    border: 5px solid white;
+    border: 5px solid white;
+    color:white;
+    font-weight: bold;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.circle-host{
+    width:100px;
+    height: 100px;
+    background: #00ABA9;
+    border-radius: 100%;
+    border: 5px solid white;
+    border: 5px solid white;
+    color:white;
+    font-weight: bold;
+    padding-top: 30px;
+}
