@@ -18,13 +18,13 @@ body{
 
 .header-big{
     font-size: 55px;
-    font:"sans-serif";
+    font-family: "anton-regular";
     font-weight: 100;
 }
 
 .address-state{
-    font-size: 37px;
-    font: "anton-regular";
+    font-size: 40px;
+    font-family: "anton-regular";
     font-weight: bold;
 }
 
