@@ -54,6 +54,7 @@ body{
 /* Header and intro styles ends here */
 
 /* Pictures transformation styles in different screen sizes starts here */
+
 @media screen and (min-width: 100px) and (max-width: 576px){
     .project-img {
         display: flex;
