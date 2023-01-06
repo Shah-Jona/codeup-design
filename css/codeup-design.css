@@ -64,11 +64,9 @@ body{
         height: auto;
         border: 5px solid #e6e6e6;
     }
-    .little-icons {
-        margin-left: 100px;
-    }
+
     .man {
-        height:335px !important;
+        height:auto !important;
     }
 }
 
@@ -151,6 +149,13 @@ body{
 
 }
 
+.fluid-icons{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .red-d {
     background-color: #E6563B;
     margin-left: 40px;
@@ -178,3 +183,6 @@ body{
     margin-top: 0;
 }
 /* The small side images styles ends here */
+
+
+
