@@ -5,16 +5,12 @@
 body{
     background-color: rgb(240, 240, 240);
 }
+
+/* Header and intro styles starts here */
 .head-logo{
     border-radius: 100%;
     border: 3px solid rgb(3, 160, 184);
 }
-
-/* @media screen and (min-width:200px) and (max-width: 768px){
-    .logo-title{
-        visibility:hidden;
-    }
-} */
 
 .header-big{
     font-size: 55px;
@@ -54,6 +50,25 @@ body{
 }
 .circle-host{   
     background: #00ABA9;   
+}
+/* Header and intro styles ends here */
+
+/* Pictures transformation styles in different screen sizes starts here */
+@media screen and (min-width: 100px) and (max-width: 576px){
+    .project-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 475px;
+        height: auto;
+        border: 5px solid #e6e6e6;
+    }
+    .little-icons {
+        margin-left: 150px;
+    }
+    .man {
+        height:335px !important;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px){
@@ -109,28 +124,21 @@ body{
 
 @media screen and (min-width: 1200px){
     .project-img{
-        width: 370px;
+        width: 400px;
         height: auto;
         border: 5px solid #e6e6e6;
     }
     .man{
-        height: 240px;
+        height: 267px;
     }
     .little-icons{
-        margin-left: 50px;
+        margin-left: 70px;
     }
 }
 
-.small-img {
-    font-family: anton-regular;
-    font-size: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin-top: 30px;
-}
-.small-img-1 {
-    margin-top: 0;
-}
+/* Pictures transformation styles in different screen sizes ENDS here */
+
+/* The small images styles strats here */
 
 .color-icon{
     font-family: "anton-regular";
@@ -141,7 +149,6 @@ body{
     margin-left: 5px;
 
 }
-
 
 .red-d {
     background-color: #E6563B;
@@ -156,3 +163,17 @@ body{
 .blue-h {
     background-color: #00ABA9;
 }
+/* The small images styles ends here */
+
+/* The small side images styles starts here */
+.small-img {
+    font-family: anton-regular;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.small-img-1 {
+    margin-top: 0;
+}
+/* The small side images styles ends here */

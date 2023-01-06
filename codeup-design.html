@@ -28,7 +28,7 @@
         height="60px"
       />
       <div
-        class="d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block navbar h1 mx-2"
+        class="navbar h1 mx-2 d-none d-sm-block d-sm-none d-md-none d-md-block d-lg-block "
         href="#"
       >
         codeup design
@@ -62,9 +62,10 @@
       </div>
     </nav>
     <!-- navbar ends here -->
+
     <!-- page wrapper starts here -->
     <main class="page-wrapper">
-      <div class="container col-12">
+      <div class="container">
         <!-- headers section starts here -->
         <div class="row">
           <div class="header-big col-lg-12 text-center fw-bold h1 mt-5 mb-4">
@@ -77,59 +78,60 @@
         <!-- headers section ends here -->
         <!-- circle section starts here -->
         <div class="row mt-5 justify-content-lg-center mx-lg-5">
-          <div class="col-lg-6 mb-sm-5 col-md-6">
+          <div class="mb-sm-5 col-xs-12 col-md-6 col-lg-6 col-xl-6">
             <div
-              class="row justify-content-lg-end justify-content-sm-center justify-content-md-center"
+              class="row justify-content-center justify-content-lg-end mb-4 mb-sm-0"
             >
               <div
-                class="circles circle-design col-lg-6 col-sm-3 col-md-3 text-sm-end mx-lg-4 mx-md-5 mx-sm-4"
+                class="circles circle-design col-sm-3 col-md-3 col-lg-6 text-sm-end mx-sm-4 mx-md-5 mx-lg-4"
               >
                 DESIGN
               </div>
               <div
-                class="circles circle-develop col-lg-6 col-md-3 col-sm-5 text-sm-center text-lg-end mx-lg-4 mx-4"
+                class="circles circle-develop col-sm-5 col-md-3 col-lg-6 text-sm-center text-lg-end mx-lg-4 mx-4"
               >
                 DEVELOP
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
             <div
-              class="row justify-content-sm-center justify-content-lg-start justify-content-md-center"
+              class="row justify-content-center justify-content-md-center justify-content-lg-start mt-xs-4"
             >
               <div
-                class="circles circle-support col-md-3 col-lg-3 col-sm-5 text-sm-end mx-sm-4 mx-lg-4"
+                class="circles circle-support text-sm-end col-md-3 col-lg-3 col-sm-5  mx-sm-4 mx-lg-4"
               >
                 SUPPORT
               </div>
               <div
-                class="circles circle-host col-lg-3 col-sm-5 text-sm-center col-md-3 mr-lg-5 mx-lg-4 mx-sm-4 justify-content-sm-center mx-md-5"
+                class="circles circle-host col-sm-5 col-lg-3  text-sm-center col-md-3 mr-lg-5 mx-lg-4 mx-sm-4 justify-content-sm-center mx-md-5 mx-4 mx-sm-0"
               >
                 HOST
               </div>
-            </div>
-            <!-- circle section ends here -->
+            </div> 
           </div>
           <!-- The line in large screen starts here -->
-          <div class="col-lg-12 mt-4 d-sm-none d-md-block d-none d-sm-block">
+          <div class="col-12 mt-4 d-none d-sm-none d-md-block ">
             <div class="border border-1 border-dark-subtle"></div>
           </div>
           <!-- The line in large screen ends here -->
         </div>
+        <!-- circle section ends here -->
+
         <!--The main body section starts here-->
         <section>
           <div class="row mt-5 mb-5">
-            <div class="col-xs-12 col-sm-12 col-lg-9 col-md-12 ">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
               <div class="text-center mb-5">SELECTED WORK</div>
               <div class="row col-sm-12 justify-content-center ">
-                <div class="col-sm-12 col-lg-6 col-md-6 mb-lg-5 col-xl-6 mx-0">
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-lg-5 mx-0">
                   <img
                     class="project-img apple-ipad"
                     src="./images/apple-ipad.jpg"
                     width="325px"
                     height="auto"
                   />
-                  <div class="col-xs-6 my-3 d-inline-flex  ">
+                  <div class="col-xs-6 my-3 d-inline-flex">
                     FEATHERED PROJECT
                     <div class="little-icons col-xs-12 d-flex d-inline-flex text-center">
                       <div class="color-icon red-d">D</div>
@@ -139,7 +141,7 @@
                     </div>
                   </div>
                 </div>
-                <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+                <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                   <img
                     class="project-img macbook"
                     src="./images/macbook.jpg"
@@ -175,14 +177,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
+                <div class="col-xs-12 col-sm-12 col-lg-6 col-md-6 col-xl-6">
                   <img
                     class="project-img security"
                     src="./images/security.jpg"
                     width="325px"
                     height="auto"
                   />
-                    <div class="col-xs-6 my-3 d-inline-flex  ">
+                    <div class="col-xs-6 my-3 d-inline-flex">
                         FEATHERED PROJECT
                         <div class="little-icons col-xs-12 d-flex d-inline-flex text-center">
                             <div class="color-icon red-d">D</div>
@@ -194,8 +196,9 @@
                 </div>
               </div>
             </div>
-            <div
-              class="col-4 col-lg-3 d-xs-none d-sm-none d-md-none d-lg-block"
+            
+            <!-- The small side images section starts here -->
+            <section class="col-4 col-lg-3 d-none d-xs-none d-sm-none d-md-none d-lg-block"
             >
               <div class="text-center">THE LAST</div>
               <div class="row mt-5">
@@ -243,7 +246,9 @@
                 </div>
               </div>
             </div>
-          </div>
+        </section>
+        <!-- The small side images section starts here -->
+
         </section>
         <!--The main body section ends here-->
       </div>
