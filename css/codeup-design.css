@@ -60,13 +60,9 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 475px;
+        width: 100%;
         height: auto;
         border: 5px solid #e6e6e6;
-    }
-
-    .man {
-        height:auto !important;
     }
 }
 
@@ -75,34 +71,33 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 500px;
+        width: 100%;
         height: auto;
         border: 5px solid #e6e6e6;
     }
-    .little-icons {
-        margin-left: 170px;
-    }
-    .man {
-        height:335px !important;
-    }
+    /* .man{
+        height: 330px;
+    } */
 }
 @media screen and (min-width: 768px) and (max-width:992px){
     .project-img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 325px;
+        width: 100%;
         height: auto;
         border: 5px solid #e6e6e6;
     }
+    /* .man{
+        height:218px;
+    } */
 }
 @media screen and (min-width: 992px) and (max-width:1200px){
     .project-img {
         display: flex;
-        /*flex-direction: column;*/
         justify-content: center;
         margin-top: 50px;
-        width: 325px;
+        width: 100%;
         height: auto;
         border: 5px solid #e6e6e6;
     }
@@ -113,28 +108,25 @@ body{
     .security{
         margin-top: 0;
     }
+    /* .man{
+        height: 217px;
+    } */
 }
-.man{
-    height: 215px;
-}
+
 .text-nibbler {
     margin-right: 5px !important;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) and (max-width: 2000px){
     .project-img{
-        width: 400px;
+        width: 100%;
         height: auto;
         border: 5px solid #e6e6e6;
     }
-    .man{
-        height: 267px;
-    }
-    .little-icons{
-        margin-left: 70px;
-    }
+     /* .man{
+        height: 308px; 
+    } */
 }
-
 /* Pictures transformation styles in different screen sizes ENDS here */
 
 /* The small images styles strats here */
