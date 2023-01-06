@@ -75,9 +75,6 @@ body{
         height: auto;
         border: 5px solid #e6e6e6;
     }
-    /* .man{
-        height: 330px;
-    } */
 }
 @media screen and (min-width: 768px) and (max-width:992px){
     .project-img {
@@ -88,9 +85,6 @@ body{
         height: auto;
         border: 5px solid #e6e6e6;
     }
-    /* .man{
-        height:218px;
-    } */
 }
 @media screen and (min-width: 992px) and (max-width:1200px){
     .project-img {
@@ -108,9 +102,7 @@ body{
     .security{
         margin-top: 0;
     }
-    /* .man{
-        height: 217px;
-    } */
+   
 }
 
 .text-nibbler {
@@ -123,9 +115,7 @@ body{
         height: auto;
         border: 5px solid #e6e6e6;
     }
-     /* .man{
-        height: 308px; 
-    } */
+     
 }
 /* Pictures transformation styles in different screen sizes ENDS here */
 
