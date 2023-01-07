@@ -6,6 +6,10 @@
 body{
     background-color: rgb(240, 240, 240);
 }
+.navbar {
+    z-index: 100;
+    background-color: rgb(240, 240, 240);
+}
 
 /* Header and intro styles starts here */
 .head-logo{
