@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin:0;
 }
+
 body{
     background-color: rgb(240, 240, 240);
 }
@@ -101,8 +102,7 @@ body{
     }
     .security{
         margin-top: 0;
-    }
-   
+    }  
 }
 
 .text-nibbler {
@@ -127,8 +127,7 @@ body{
     width: 25px;
     font-size: 15px;
     border-radius: 100%;
-    margin-left: 5px;
-
+    margin-left: 5px;   
 }
 
 .fluid-icons{
@@ -136,11 +135,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .red-d {
     background-color: #E6563B;
-    margin-left: 40px;
 }
 .orange-d {
     background-color: #EB9D3A;
