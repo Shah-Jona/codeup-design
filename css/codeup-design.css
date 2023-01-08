@@ -1,9 +1,9 @@
-*{
+* {
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
 }
 
-body{
+body {
     background-color: rgb(240, 240, 240);
 }
 .navbar {
@@ -12,55 +12,58 @@ body{
 }
 
 /* Header and intro styles starts here */
-.head-logo{
+.head-logo {
     border-radius: 100%;
     border: 3px solid rgb(3, 160, 184);
 }
 
-.header-big{
+.header-big {
     font-size: 55px;
     font-family: "anton-regular";
     font-weight: 100;
 }
 
-.address-state{
+.address-state {
     font-size: 40px;
     font-family: "anton-regular";
     font-weight: bold;
 }
 
-.circles{
-    width:100px;
+.circles {
+    width: 100px;
     height: 100px;
     border-radius: 100%;
     border: 5px solid white;
-    color:white;
+    color: white;
     font-weight: bold;
     padding-top: 30px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     font-family: "anton-regular";
     font-size: 17px;
 }
 
-.circle-design{
+.circle-design {
     background: #E6563B;
 }
 
-.circle-develop{
-    background: #EB9D3A;   
+.circle-develop {
+    background: #EB9D3A;
 }
-.circle-support{
-    background: #7CB06C;  
+
+.circle-support {
+    background: #7CB06C;
 }
-.circle-host{   
-    background: #00ABA9;   
+
+.circle-host {
+    background: #00ABA9;
 }
+
 /* Header and intro styles ends here */
 
 /* Pictures transformation styles in different screen sizes starts here */
 
-@media screen and (min-width: 100px) and (max-width: 576px){
+@media screen and (min-width: 100px) and (max-width: 576px) {
     .project-img {
         display: flex;
         flex-direction: column;
@@ -71,7 +74,7 @@ body{
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .project-img {
         display: flex;
         flex-direction: column;
@@ -81,7 +84,8 @@ body{
         border: 5px solid #e6e6e6;
     }
 }
-@media screen and (min-width: 768px) and (max-width:992px){
+
+@media screen and (min-width: 768px) and (max-width:992px) {
     .project-img {
         display: flex;
         flex-direction: column;
@@ -91,7 +95,8 @@ body{
         border: 5px solid #e6e6e6;
     }
 }
-@media screen and (min-width: 992px) and (max-width:1200px){
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
     .project-img {
         display: flex;
         justify-content: center;
@@ -100,42 +105,45 @@ body{
         height: auto;
         border: 5px solid #e6e6e6;
     }
-    .man{
+
+    .man {
         margin-top: 0;
-        margin-right:0;
+        margin-right: 0;
     }
-    .security{
+
+    .security {
         margin-top: 0;
-    }  
+    }
 }
 
 .text-nibbler {
     margin-right: 5px !important;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 2000px){
-    .project-img{
+@media screen and (min-width: 1200px) and (max-width: 2000px) {
+    .project-img {
         width: 100%;
         height: auto;
         border: 5px solid #e6e6e6;
     }
-     
+
 }
+
 /* Pictures transformation styles in different screen sizes ENDS here */
 
 /* The small images styles strats here */
 
-.color-icon{
+.color-icon {
     font-family: "anton-regular";
     height: 25px;
     width: 25px;
     font-size: 15px;
     border-radius: 100%;
-    margin-left: 5px;   
+    margin-left: 5px;
 }
 
-.fluid-icons{
-    width:100%;
+.fluid-icons {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -145,15 +153,19 @@ body{
 .red-d {
     background-color: #E6563B;
 }
+
 .orange-d {
     background-color: #EB9D3A;
 }
+
 .green-s {
     background-color: #7CB06C;
 }
+
 .blue-h {
     background-color: #00ABA9;
 }
+
 /* The small images styles ends here */
 
 /* The small side images styles starts here */
@@ -164,10 +176,9 @@ body{
     margin-bottom: 10px;
     margin-top: 30px;
 }
+
 .small-img-1 {
     margin-top: 0;
 }
+
 /* The small side images styles ends here */
-
-
-
