@@ -6,6 +6,7 @@
 body {
     background-color: rgb(240, 240, 240);
 }
+
 .navbar {
     z-index: 100;
     background-color: rgb(240, 240, 240);
@@ -33,7 +34,7 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 7px solid white;
     color: white;
     font-weight: bold;
     padding-top: 30px;
@@ -63,70 +64,23 @@ body {
 
 /* Pictures transformation styles in different screen sizes starts here */
 
-@media screen and (min-width: 100px) and (max-width: 576px) {
-    .project-img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        border: 5px solid #e6e6e6;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    .project-img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        border: 5px solid #e6e6e6;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width:992px) {
-    .project-img {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        height: auto;
-        border: 5px solid #e6e6e6;
-    }
+.project-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border: 7px solid #e6e6e6;
 }
 
 @media screen and (min-width: 992px) and (max-width:1200px) {
     .project-img {
-        display: flex;
-        justify-content: center;
         margin-top: 50px;
-        width: 100%;
-        height: auto;
-        border: 5px solid #e6e6e6;
-    }
-
-    .man {
-        margin-top: 0;
-        margin-right: 0;
-    }
-
-    .security {
-        margin-top: 0;
     }
 }
 
 .text-nibbler {
     margin-right: 5px !important;
-}
-
-@media screen and (min-width: 1200px) and (max-width: 2000px) {
-    .project-img {
-        width: 100%;
-        height: auto;
-        border: 5px solid #e6e6e6;
-    }
-
 }
 
 /* Pictures transformation styles in different screen sizes ENDS here */
